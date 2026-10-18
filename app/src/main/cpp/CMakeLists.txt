@@ -14,7 +14,7 @@ FetchContent_MakeAvailable(imgui)
 set(DOBBY_GENERATE_SHARED OFF CACHE BOOL "" FORCE)
 set(DOBBY_DEBUG OFF CACHE BOOL "" FORCE)
 set(Plugin.SymbolResolver ON CACHE BOOL "" FORCE)
-FetchContent_Declare(dobby GIT_REPOSITORY https://github.com/jmpews/Dobby.git GIT_TAG master)
+FetchContent_Declare(dobby GIT_REPOSITORY https://github.com/jmpews/Dobby.git GIT_TAG 0932d69c320e786672361ab53825ba8f4245e9d3)
 FetchContent_MakeAvailable(dobby)
 
 # ── Loader JNI của launcher (memfd + android_dlopen_ext) ──
